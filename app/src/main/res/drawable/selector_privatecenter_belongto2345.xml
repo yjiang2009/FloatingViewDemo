@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item android:state_pressed="true" android:drawable="@drawable/dropzone_person_press_belongto2345"></item>
+    <item android:drawable="@drawable/dropzone_person_normal_belongto2345"></item>
+
+</selector>

@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item android:state_pressed="true" android:drawable="@color/color_radiobackgroundpressed_belongto2345"></item>
+    <item android:state_checked="true" android:drawable="@color/color_radiobackgroundpressed_belongto2345"></item>
+    <item android:drawable="@color/color_radiobackgroundnormal_belongto2345"></item>
+
+</selector>

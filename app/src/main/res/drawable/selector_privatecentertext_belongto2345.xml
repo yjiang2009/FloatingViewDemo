@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item android:state_pressed="true" android:color="@color/color_privatecenterpressed_text_belongto2345"></item>
+    <item android:color="@color/color_privatecenternormal_text_belongto2345"></item>
+
+</selector>

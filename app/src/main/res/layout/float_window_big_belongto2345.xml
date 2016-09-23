@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_window_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dropzonebg_belongto2345"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/event_belongto2345"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        >
+        <ImageView
+        android:id="@+id/redview_belongto2345"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/apps_count_num_belongto2345"
+        />
+        <ImageView
+            android:id="@+id/event_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/selector_eventcenter_belongto2345"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:duplicateParentState="true"
+            android:layout_below="@+id/event_iv"
+            android:layout_marginTop="2dp"
+            android:text="活动"
+            android:textSize="9dp"
+            android:textColor="@drawable/selector_privatecentertext_belongto2345"
+            />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/pay_belongto2345"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        >
+        <ImageView
+            android:id="@+id/pay_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/selector_paycenter_belongto2345"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:duplicateParentState="true"
+            android:layout_below="@+id/pay_iv"
+            android:layout_marginTop="2dp"
+            android:text="充值中心"
+            android:textSize="9dp"
+            android:textColor="@drawable/selector_privatecentertext_belongto2345"
+            />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/center_belongto2345"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        >
+        <!-- <TextView
+        android:id="@+id/countview"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/apps_count_num"
+        android:gravity="center"
+        android:text=""       
+        android:textSize="9dp"     
+        /> -->
+        <ImageView
+            android:id="@+id/private_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/selector_privatecenter_belongto2345"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:duplicateParentState="true"
+            android:layout_below="@+id/private_iv"
+            android:layout_marginTop="2dp"
+            android:text="个人中心"
+            android:textSize="9dp"
+            android:textColor="@drawable/selector_privatecentertext_belongto2345"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gift_belongto2345"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        >
+        <ImageView
+            android:id="@+id/gift_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:src="@drawable/selector_gift_belongto2345"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/gift_iv"
+            android:layout_marginTop="2dp"
+            android:text="礼包"
+            android:textSize="9dp"
+            android:textColor="@drawable/selector_privatecentertext_belongto2345"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

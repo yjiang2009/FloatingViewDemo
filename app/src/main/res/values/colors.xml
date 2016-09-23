@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_titlebuttonnormal_belongto2345">#297acc</color>
+    <color name="color_titlebuttonchecked_belongto2345">#ffffff</color>
+    <color name="color_default_edithint_belongto2345">#2163a6</color>
+    <color name="color_alerttext_belongto2345">#e8b932</color>
+    <color name="color_white_belongto2345">#ffffff</color>
+    <color name="color_black_belongto2345">#000000</color>
+    <color name="color_checkboxtext_belongto2345">#737373</color>
+    <color name="color_translate_belongto2345">#00000000</color>
+    <color name="color_blue_text_belongto2345">#3097fd</color>
+    <color name="color_userdown_nomal_belongto2345">#fafbfc</color>
+    <color name="color_userdown_press_belongto2345">#95c9fd</color>
+    <color name="color_usersdown_belongto2345">#666666</color>
+
+    <color name="gray_belongto2345">#737373</color>
+    <color name="yellow_belongto2345">#e8b932</color>
+
+    <color name="color_privatecenterpressed_text_belongto2345">#3097fd</color>
+    <color name="color_privatecenternormal_text_belongto2345">#E6E6E6</color>
+
+    <color name="color_floatingbackpressed_text_belongto2345">#3097fd</color>
+    <color name="color_floatingbacknormal_text_belongto2345">#ccFFFFFF</color>
+
+    <color name="color_radiobuttonpressed_text_belongto2345">#ffffff</color>
+    <!-- <color name="color_radiobuttonnormal_text_belongto2345">#104984</color> -->
+    <color name="color_radiobuttonnormal_text_belongto2345">#99ffffff</color>
+
+    <!-- <color name="color_radiobackgroundpressed_belongto2345">#0E4780</color> -->
+    <color name="color_radiobackgroundpressed_belongto2345">#800f1a26</color>
+    <!-- <color name="color_radiobackgroundnormal_belongto2345">#06223e</color> -->
+    <color name="color_radiobackgroundnormal_belongto2345">#00000000</color>
+    <color name="btnblue_default_belongto2345">#06223e</color>
+
+    <color name="color_private_item_normal_belongto2345">#ffffff</color>
+    <color name="color_private_item_pressed_belongto2345">#f5f5f5</color>
+
+    <color name="color_change_password_deflaut_belongto2345">#b2b2b2</color>
+</resources>
