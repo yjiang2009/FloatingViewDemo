@@ -47,11 +47,6 @@ public class FloatManager {
 
     }
 
-	/*public FloatManager(Context context){
-		this.context = context;
-		mPreferenceManager = new PreferebceManager(context);
-	}*/
-
     public WindowManager.LayoutParams getWindowParams() {
         return windowParams;
     }
@@ -63,9 +58,6 @@ public class FloatManager {
             floatView.cancelTimerCount();
         }
         WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        // 在程序退出(Activity销毁）时销毁悬浮窗口
-		/*Activity activity=(Activity)context;
-		if (!activity.isFinishing())*/
         windowManager.removeView(floatView);
         floatView = null;
         isDisplay = false;
@@ -86,10 +78,6 @@ public class FloatManager {
         });
         // 获取WindowManager
         WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        // 设置LayoutParams(全局变量）相关参数
-        // 显示myFloatView图像
-		/*Activity activity=(Activity)context;
-		if (!activity.isFinishing())*/
         windowManager.addView(floatView, windowParams);
         isDisplay = true;
     }
@@ -100,8 +88,6 @@ public class FloatManager {
 
 
             isRight = mPreferenceManager.isDisplayRight();
-            //Toast.makeText(context, "Clicked", Toast.LENGTH_SHORT).show();
-            //Utils.getId(context,"gift")
             View popupView = View.inflate(context, Utils.getLayout(context, "float_window_big"), null);
             RelativeLayout centerlayout = (RelativeLayout) popupView.findViewById(Utils.getId(context, "center"));
             RelativeLayout giftlayout = (RelativeLayout) popupView.findViewById(Utils.getId(context, "gift"));

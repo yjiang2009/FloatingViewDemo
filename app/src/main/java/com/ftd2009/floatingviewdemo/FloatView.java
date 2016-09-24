@@ -35,10 +35,6 @@ public class FloatView extends ImageView {
 
 
 	private int defaultResource = Utils.getDrawable(getContext(),"zhangyu");
-/*	private int focusLeftResource = R.drawable.icon_focus_left;
-	private int focusRightResource = R.drawable.icon_focus_right;
-	private int leftResource = R.drawable.icon_default_left;
-	private int rightResource = R.drawable.icon_default_right;*/
 	private int focusLeftResource = Utils.getDrawable(getContext(),"zhangyu");
 	private int focusRightResource =Utils.getDrawable(getContext(),"zhangyu");
 	private int leftResource =Utils.getDrawable(getContext(),"zhangyu");
