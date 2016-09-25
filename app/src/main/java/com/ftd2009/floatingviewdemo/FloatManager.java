@@ -118,7 +118,6 @@ public class FloatManager {
                     popupView.setBackgroundResource(Utils.getDrawable(context, "dropzonebg_left"));
                     popupWindow.showAtLocation(floatView, Gravity.LEFT, floatView.getWidth(), 0);
                 }
-                //服务端控制红点显示,用户点过红点后红点消失Account.getExistedInstance().showActRed(context)&&
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
                 boolean clickRedPoint = false;
                 if (!clickRedPoint) {

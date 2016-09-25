@@ -89,18 +89,6 @@ public class PreferebceManager {
 		editor.commit();
 	}
 
-	// 第一次成功抢到过礼包
-	public boolean getFirstSuccessGet() {
-		SharedPreferences swg = getSharedPreferences();
-		return swg.getBoolean(Constants.PREF_KEY_FIRST_SUCCESS_GET, false);
-	}
-
-	public void setFirstSuccessGet(boolean b) {
-		Editor editor = getEditer();
-		editor.putBoolean(Constants.PREF_KEY_FIRST_SUCCESS_GET, b);
-		editor.commit();
-	}
-
 	public String getGameId() {
 		SharedPreferences swg = getSharedPreferences();
 		return swg.getString(Constants.PREF_KEY_GAME_ID, "game2345");
@@ -124,18 +112,6 @@ public class PreferebceManager {
 		editor.commit();
 	}
 
-	// 活动弹出框是否显示
-	public boolean hasShowEventDialog() {
-		SharedPreferences swg = getSharedPreferences();
-		return swg.getBoolean(Constants.PREF_KEY_EVENT_DIALOG, false);
-	}
-
-	public void setHasShowEventDialog(boolean b) {
-		Editor editor = getEditer();
-		editor.putBoolean(Constants.PREF_KEY_EVENT_DIALOG, b);
-		editor.commit();
-	}
-
 	// 游戏包名
 	public String getGamePackageName() {
 		SharedPreferences swg = getSharedPreferences();
@@ -145,18 +121,6 @@ public class PreferebceManager {
 	public void setGamePackageName(String s) {
 		Editor editor = getEditer();
 		editor.putString(Constants.GAME_PACKAGE_NAME, s);
-		editor.commit();
-	}
-
-	// 下载的强更包路径
-	public String getUpdatePath() {
-		SharedPreferences swg = getSharedPreferences();
-		return swg.getString(Constants.UPDATE_PATH, "");
-	}
-
-	public void setUpdatePath(String s) {
-		Editor editor = getEditer();
-		editor.putString(Constants.UPDATE_PATH, s);
 		editor.commit();
 	}
 	

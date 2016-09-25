@@ -189,18 +189,12 @@ public class FloatView extends ImageView {
 				if(onMoveListener!=null) {
 					onMoveListener.onMove();
 				}
-				/*
-				handler.sendEmptyMessage(HIDE);
-				updateViewPosition();*/
 			}
 			if (x>(screenWidth-100)&&(event.getX() - mTouchX)>50){
 				isMove = true;
 				if(onMoveListener!=null) {
 					onMoveListener.onMove();
 				}
-				/*
-				handler.sendEmptyMessage(HIDE);
-				updateViewPosition();*/
 			}
 			break;
 		case MotionEvent.ACTION_UP: // 捕获手指触摸离开动作
